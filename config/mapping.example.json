@@ -1,0 +1,34 @@
+{
+    "shared": {
+        "target_tab": "בית",
+        "keywords": {
+            "ELECTRIC COMPANY LTD": {
+                "display_name": "חשמל",
+                "categories": [
+                    "שוטף"
+                ]
+            },
+            "SUPERMARKET 123": {
+                "display_name": "קניות",
+                "categories": [
+                    "קניות שבועיות"
+                ]
+            }
+        }
+    },
+    "ofer": {
+        "target_tab": "עופר",
+        "keywords": {
+            "GAS STATION": {
+                "display_name": "דלק",
+                "categories": [
+                    "דלק"
+                ]
+            }
+        }
+    },
+    "shay": {
+        "target_tab": "שי",
+        "keywords": {}
+    }
+}

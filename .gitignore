@@ -1,0 +1,35 @@
+# --- Secrets & credentials ---
+.env
+*.env
+!.env.example
+config/service_account.json
+secrets/
+
+# --- Personal data ---
+# Learned merchant mapping (contains real transaction data).
+# See config/mapping.example.json for the format.
+config/mapping.json
+# Bank / credit-card exports
+imports/*
+!imports/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+
+# --- IDE & OS ---
+.claude/settings.local.json
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Logs & temp ---
+logs/*
+!logs/.gitkeep
+*.log
+temp/
